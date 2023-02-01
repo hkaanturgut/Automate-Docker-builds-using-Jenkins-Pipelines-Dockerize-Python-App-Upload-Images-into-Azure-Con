@@ -142,5 +142,52 @@ How to monitor Jenkins?
 ![Screenshot 2023-01-31 at 4 45 02 PM](https://user-images.githubusercontent.com/113396342/215935373-3984964c-6d37-4302-98d3-724de9d609ad.png)
 #
 
+- In order to build our image , add image build stage 
+
+![Screenshot 2023-01-30 at 10 22 02 PM](https://user-images.githubusercontent.com/113396342/215935817-b01f061e-2d73-4836-83fb-5ac496d8dbd3.png)
+
+- Click > Build Now > Image build stage is successfull
+
+![Screenshot 2023-01-31 at 4 47 26 PM](https://user-images.githubusercontent.com/113396342/215936063-f9866682-21d9-4567-ad3f-59d38feda4d5.png)
+
+- We can see the stage output
+
+![Screenshot 2023-01-31 at 4 47 39 PM](https://user-images.githubusercontent.com/113396342/215936191-c7b23c41-12f9-449f-a715-535114a4e4aa.png)
+
+#
+
+- In order to upload the image to ACR , add another stage
+
+![Screenshot 2023-01-30 at 10 27 16 PM](https://user-images.githubusercontent.com/113396342/215936525-db63050b-16e4-4bea-808b-0608ff383950.png)
+
+- Click > Build Now > Image has been successfully pushed to ACR
+
+![Screenshot 2023-01-31 at 4 49 57 PM](https://user-images.githubusercontent.com/113396342/215936706-fe4088cb-0b9e-42c8-bf57-ac5e853be6b9.png)
+
+-  We can see the stage output
+
+![Screenshot 2023-01-31 at 4 50 21 PM](https://user-images.githubusercontent.com/113396342/215936759-c58e0915-f681-4311-9a7b-467608402420.png)
+#
+
+# Check the image from ACR
+![Screenshot 2023-01-31 at 4 50 41 PM](https://user-images.githubusercontent.com/113396342/215936845-cb203872-e75a-4959-8ef1-bc603db70a7a.png)
+
+#
+
+- In order to run our container with the image , add another stage
+
+![Screenshot 2023-01-30 at 10 33 57 PM](https://user-images.githubusercontent.com/113396342/215937262-0a0f9c2d-2b14-4974-87c3-bf75baec1c1d.png)
+
+- Click > Build Now > Container is running succesfully and our app is working on [ linux_vm_public_ip:8096 ]
+
+![Screenshot 2023-01-31 at 4 25 13 PM](https://user-images.githubusercontent.com/113396342/215937647-da35b4cc-5acd-443a-b764-15b2e92f1e8e.png)
+
+-   We can see the stage output
+
+![Screenshot 2023-01-31 at 4 25 33 PM](https://user-images.githubusercontent.com/113396342/215937678-b204af11-137a-4aeb-b93b-a4c93242f032.png)
+
+
+
+
 
 
