@@ -125,7 +125,7 @@ How to monitor Jenkins?
 
 - To make the Jenkins check out our app code , checkout stage is necesseary. Can do it by following the images :
 
-<a href="https://github.com/hkaanturgut/Automate-Docker-builds-using-Jenkins-Pipelines-Dockerize-Python-App-Upload-Images-into-Azure-Con/blob/main/Jenkinsfile" target="_blank">Jenkinsfile</a> 
+You can access the pipeline script from >>> <a href="https://github.com/hkaanturgut/Automate-Docker-builds-using-Jenkins-Pipelines-Dockerize-Python-App-Upload-Images-into-Azure-Con/blob/main/Jenkinsfile" target="_blank">Jenkinsfile</a> 
      
      - Go to > [ Pipeline Syntax ] > Paste your GitHub Repo link > Choose your branch > Generate your pipeline script and copy it
 
