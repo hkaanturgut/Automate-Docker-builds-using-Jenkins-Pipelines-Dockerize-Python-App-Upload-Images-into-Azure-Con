@@ -1,6 +1,8 @@
 # Automate Docker builds using Jenkins Pipelines | Dockerize Python App | Upload Images into Azure Container Registry (ACR)
 
-This repository contains the necessary resources to automate the build and deployment of a Dockerized Python application. We'll use Jenkins Pipelines to manage the build process and Azure Container Registry (ACR) to store the Docker images from inside our provisioned Linux Vm.
+![proje-diagram](https://user-images.githubusercontent.com/113396342/215951954-71cc5a15-b677-4412-b717-cc3186efa008.png)
+
+Automating Docker builds using Jenkins Pipelines can greatly improve the efficiency and reliability of the application deployment process. In this overview, we will show you how to utilize Jenkins Pipelines to automate the process of Dockerizing a Python application and uploading its images into Azure Container Registry (ACR). By combining Jenkins' powerful CI/CD capabilities with Docker's containerization technology and ACR's secure and scalable image management, you can streamline your application delivery pipeline and ensure consistent and repeatable deployments. This overview will walk you through the steps involved in setting up Jenkins Pipelines for automated Docker builds, Dockerizing a Python app, and uploading its images to ACR.
 #
 
 # Steps 
