@@ -186,8 +186,12 @@ How to monitor Jenkins?
 
 ![Screenshot 2023-01-31 at 4 25 33 PM](https://user-images.githubusercontent.com/113396342/215937678-b204af11-137a-4aeb-b93b-a4c93242f032.png)
 
+#
+
+# Once build is successful, go to browser and enter http://linux_vm_public_ip:8096
+- You should see page like below:
 
 
-
+![Screenshot 2023-01-31 at 10 38 59 PM](https://user-images.githubusercontent.com/113396342/215939441-d4d7b255-3fc6-4e13-845c-943c4d2c45fd.png)
 
 
