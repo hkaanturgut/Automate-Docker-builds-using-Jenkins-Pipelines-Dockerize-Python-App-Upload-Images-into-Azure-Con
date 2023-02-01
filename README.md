@@ -17,7 +17,7 @@ This repository contains the necessary resources to automate the build and deplo
 
 ![Screenshot 2023-01-30 at 9 27 45 PM](https://user-images.githubusercontent.com/113396342/215927980-43838eba-2940-4d5b-910b-ef6b8aeae09c.png)
 
-SUCH A SPEED DEPLOYMENT , ISN'T IT?
+SUCH A FAST DEPLOYMENT , ISN'T IT?
 
 <a href="https://github.com/hkaanturgut/Automate-Docker-builds-using-Jenkins-Pipelines-Dockerize-Python-App-Upload-Images-into-Azure-Con/tree/main/azure_terraspace_linux-vm" target="_blank">Terraspace Code Repository</a> 
 
@@ -117,5 +117,30 @@ How to monitor Jenkins?
 
 ![Screenshot 2023-01-30 at 10 05 50 PM](https://user-images.githubusercontent.com/113396342/215929954-df4add05-bb6f-4e40-a349-98bea9666cfc.png)
 #
+
+5- Its time to create our pipeline. Create pipeline > enter a name > Select Pipeline > OK
+
+![Screenshot 2023-01-31 at 4 30 16 PM](https://user-images.githubusercontent.com/113396342/215932951-876030d9-5784-4809-a3bb-208cf64143f9.png)
+#
+
+- To make the Jenkins check out our app code , checkout stage is necesseary. Can do it by following the images :
+     
+     - Go to > [ Pipeline Syntax ] > Paste your GitHub Repo link > Choose your branch > Generate your pipeline script and copy it
+
+![Screenshot 2023-01-31 at 4 42 37 PM](https://user-images.githubusercontent.com/113396342/215933493-ddbf3855-622f-4fa1-b9ad-711f7643e32c.png)
+
+![Screenshot 2023-01-31 at 4 43 52 PM](https://user-images.githubusercontent.com/113396342/215933919-52a26670-cf87-4818-af4f-81e2d6a6b0f2.png)
+#
+
+- Paste the script under checkout stage 
+
+![Screenshot 2023-01-31 at 4 44 41 PM](https://user-images.githubusercontent.com/113396342/215934537-067e6925-1b18-4c2c-91b1-10acd2781649.png)
+#
+
+- Click > Build Now > Checkout successfull
+
+![Screenshot 2023-01-31 at 4 45 02 PM](https://user-images.githubusercontent.com/113396342/215935373-3984964c-6d37-4302-98d3-724de9d609ad.png)
+#
+
 
 
