@@ -5,12 +5,12 @@ This repository contains the necessary resources to automate the build and deplo
 
 # Steps 
 
-- Creating a Linux Vm with Terraspace
-- Creating a ACR with Terraspace
-- Installing Docker into the Linux Vm
-- Installing Jenkins from a container inside the VM
-- Building our image with Jenkins Pipeline and Deploy it to the ACR.
-- Running a container from our image to provision our Python App.
+- Creating a Linux virtual machine with Terraspace
+- Creating an Azure Container Registry with Terraspace
+- Installing Docker in the Linux virtual machine
+- Installing Jenkins from a container in the virtual machine
+- Building the image using the Jenkins Pipeline and deploying it to ACR
+- Running a container from the image to provision the Python application.
 #
 
 1 - Create the Linux Vm with Terraspace 
